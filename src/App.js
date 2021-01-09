@@ -1,5 +1,4 @@
 import React from "react";
-import AboutSection from "./components/AboutSection";
 //Import pages
 import AboutUs from "./pages/AboutUs";
 
