@@ -7,8 +7,16 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 
+html{
+    @media (max-width: 1700px){
+        font-size: 75%;
+    }
+    
+}
+
 body {
     background-color: #1b1b1b;
+    font-family: 'Inter', sans-serif;
 }
 
 button {
@@ -26,6 +34,10 @@ button {
     }
 }
 
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
 h2 {
     font-weight: lighter;
     font-size: 4rem;
@@ -36,6 +48,7 @@ h3 {
 }
 h4 {
 font-weight: bold;
+font-size: 2rem;
 
 }
 
