@@ -33,7 +33,7 @@ const AboutSection = () => {
         <button>Contact Us</button>
       </StyledDescription>
       <StyledImage>
-        <img src={home1} alt="guy with a camera" />
+        <img src={home1} alt="guy with a camera in darkness" />
       </StyledImage>
     </StyledLayout>
   );
